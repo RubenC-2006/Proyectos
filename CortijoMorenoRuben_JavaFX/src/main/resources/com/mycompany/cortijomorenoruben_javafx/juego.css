@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: #1a1a1a;
+}
+
+.button {
+    -fx-background-radius: 20;
+    -fx-opacity: 0.6;
+    -fx-cursor: hand;
+    -fx-border-color: rgba(255,255,255,0.1);
+    -fx-border-width: 3;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "System";
+    -fx-font-weight: bold;
+}
+
+.rojo-brillante { -fx-background-color: red; -fx-opacity: 1.0; -fx-effect: dropshadow(three-pass-box, red, 20, 0, 0, 0); }
+.verde-brillante { -fx-background-color: lime; -fx-opacity: 1.0; -fx-effect: dropshadow(three-pass-box, lime, 20, 0, 0, 0); }
+.azul-brillante { -fx-background-color: blue; -fx-opacity: 1.0; -fx-effect: dropshadow(three-pass-box, blue, 20, 0, 0, 0); }
+.amarillo-brillante { -fx-background-color: yellow; -fx-opacity: 1.0; -fx-effect: dropshadow(three-pass-box, yellow, 20, 0, 0, 0); }
